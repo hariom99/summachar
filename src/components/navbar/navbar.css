@@ -84,6 +84,12 @@
 
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    width: 65%;
+}
+
 @media screen and (min-width:360px) and (max-width:500px) {
     .navbar-container{
         margin-top: 2px;

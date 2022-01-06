@@ -10,6 +10,14 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={allNews} />
+        <Route exact path="/coronavirus" component={allNews} />
+        <Route exact path="/india" component={allNews} />
+        <Route exact path="/world" component={allNews} />
+        <Route exact path="/business" component={allNews} />
+        <Route exact path="/science-tech" component={allNews} />
+        <Route exact path="/politics" component={allNews} />
+        <Route exact path="/sports" component={allNews} />
+        <Route exact path="/trivia" component={allNews} />
       </Switch>
     </div>
   );

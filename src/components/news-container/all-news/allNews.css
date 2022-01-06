@@ -268,8 +268,15 @@ body { font-family: sans-serif; }
         transform: translate(-50%);
     }
     
-
-
+    .popup-div-only{
+        position: fixed;
+        z-index: 0;
+    }
+    .popup-div-news
+    {
+        /* position: fixed; */
+        top: 22%;
+    }
 
 
     .all-news-container{

@@ -7,7 +7,7 @@ import Testing from "./testing";
 const AllNews = (props) => {
     // const bg = "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/1800x1200_virus_3d_render_red_03_other.jpg";
     const allNews = props.state;
-    console.log(allNews);
+    // console.log(allNews);
     const popupRef = useRef(null);
     const carouselRef = useRef(null);
     const [popup, setPopup] = useState(false);
@@ -17,10 +17,12 @@ const AllNews = (props) => {
         if (popup) {
             popupRef.current.style.visibility = "hidden";
             carouselRef.current.style.visibility = "hidden";
+            // carouselRef.current.style.display = "block";
         }
         else {
             popupRef.current.style.visibility = "visible";
             carouselRef.current.style.visibility = "visible";
+            // carouselRef.current.style.display = "block";
         }
     }
     // const text = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

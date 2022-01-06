@@ -1,6 +1,6 @@
 import "./navbar.css";
 import brand from "../../images/brand.png"
-
+import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -18,15 +18,51 @@ const Navbar = () => {
             <div className="navlink-container-parent" >
                 <div className="navlink-container" >
                     <ul className="navlinks" >
-                        <li>All</li>
-                        <li>Coronavirus</li>
-                        <li>India</li>
-                        <li>World</li>
-                        <li>Business</li>
-                        <li>Science & Tech</li>
-                        <li>Politics</li>
-                        <li>Sports</li>
-                        <li>Trivia</li>
+                        <li>
+                            <NavLink to="/">
+                                All
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/coronavirus">
+                                Coronavirus
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/india">
+                                India
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/world">
+                                World
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/business">
+                                Business
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/science-tech">
+                                Science & Tech
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="politics">
+                                Politics
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/sports">
+                                Sports
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/trivia">
+                                Trivia
+                            </NavLink>
+                        </li>
                         <li>
                             <select className="more-links" >
                                 <option>More </option>
