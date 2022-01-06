@@ -1,0 +1,336 @@
+.all-news-container{
+    margin-top: 30px;
+    margin-left: 18px;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.news-card{
+    width: 63%;
+    /* background-color: blanchedalmond; */
+}
+.news-card-date{
+    display: flex;
+    flex-direction: row;
+    
+}
+ .news-date{
+     margin-right: 10px;
+     font-weight: 700;
+     font-size: 20px;
+ }
+ .hr{
+    margin-top: 15px;
+    width: 100%;
+    height: 0.8px;
+    background-color: #e3d4d4;
+} 
+
+.card-container{
+    /* height: 300px; */
+    width: 100%;
+    margin-top: 20px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;  
+}
+
+.card{
+    margin-top: 30px;
+    background-color: blue;
+    height: 300px;
+    width: 240px;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s ease ;
+}
+.popup-div{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px);
+    background-color: rgba(22, 22, 22, 0.7);
+   
+}
+
+.popup-card{
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 570px;
+    width: 700px;
+   display: flex;
+   flex-direction: row;
+}
+.arrow{
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow:hover{
+    cursor: pointer;
+    background-color: rgb(201, 197, 197);
+    transition: 0.2s ease;
+}
+.popup-content{
+    height: 90%;
+    width: 90%;
+    /* background-color: brown; */
+}
+
+.p-container{
+    position: fixed;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 47%;
+    /* background-color: tomato; */
+}
+
+/* .popup-news-container{
+} */
+.tab-arrow:hover{
+    cursor: pointer;
+    /* background-color: burlywood; */
+    transition: 0.2s ease;
+    transform: scale(1.3);
+}
+.tab-arrow{
+    font-size: 80px;
+    position: relative;
+    margin-right: 40px;
+    margin-top: -500px;
+
+}
+.tab-a{
+    bottom: 42%;
+    position: fixed;
+}
+.tab-b{
+    position: fixed;
+    bottom: 42%;
+    right: 17%;
+}
+
+.news-content-container{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.news-card-popup-open{
+    width: 100%;
+    height: 100%;
+    /* background-color: tomato; */
+    background-size: 100% 100%;
+
+}
+.popup-content{
+    width: 100%;
+}
+.slides{
+    width: 610px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.main{
+    margin-right: 30px;
+    width: 100%;
+    height: 550px;
+    flex: 0 0 auto;
+  
+}
+
+.bg-img-popup-card{
+    margin-top: 30px;
+    width: 90%;
+    height: 90%;
+    background-size: 100% 100%;
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive */
+
+
+
+@media screen and (min-width:360px) and (max-width:500px) {
+    .all-news-container{
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .news-card{
+        width: 80%;
+        /* background-color: blanchedalmond; */
+    }
+    .news-card-date{
+        display: flex;
+        flex-direction: row;
+        
+    }
+     .news-date{
+         margin-right: 10px;
+         font-weight: 700;
+         font-size: 20px;
+     }
+     .hr{
+         display: none;
+        /* margin-top: 15px;
+        width: 100%;
+        height: 0.8px; */
+        /* background-color: #e3d4d4; */
+    } 
+    
+    .card-container{
+        /* height: 300px; */
+        width: 100%;
+        margin-top: 20px;
+        /* background-color: blanchedalmond; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: space-evenly;  
+    }
+    
+    .card{
+        margin-top: 30px;
+        background-color: blue;
+        height: 300px;
+        width: 240px;
+    }
+    .card:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.5s ease ;
+    }
+    .popup-div{
+        position: fixed;
+        top: 0px;
+        left:0px;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(3px);
+        background-color: rgba(22, 22, 22, 0.7);
+       
+    }
+    
+    .popup-card{
+        margin-top: 30px;
+        background-color: rgb(255, 255, 255);
+        height: 570px;
+        width: 340px;
+       display: flex;
+       flex-direction: row;
+    }
+    .arrow{
+        /* background-color: crimson; */
+        /* background-color: darkblue; */
+        /* z-index: 0; */
+        width: 9%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .arrow:hover{
+        background-color: rgb(201, 197, 197);
+        transition: 0.1s ease-in-out;
+    }
+    .popup-content{
+        height: 90%;
+        width: 90%;
+        /* background-color: brown; */
+    }
+    .arrow-right-popup{
+        margin-right: 2px;
+    }
+    .p-container{
+        position: fixed;
+        top: 10%;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 0%;
+        height: 75%;
+        /* background-color: tomato; */
+    }
+ 
+    .tab-arrow{
+       display: none;
+    
+    }
+
+    
+    .news-content-container{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: white;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .news-card-popup-open{
+        width: 100%;
+        height: 100%;
+        /* background-color: tomato; */
+        background-size: 100% 100%;
+    
+    }
+    .popup-content{
+        width: 80%;
+    }
+    .slides{
+        margin-left: 2px;
+        width: 270px;
+      display: flex;
+      overflow-x: auto;
+    }
+    
+    .main{
+        margin-right: 15px;
+        width: 285px;
+        height: 460px;
+        flex: 0 0 auto;
+      
+    }
+    
+    .bg-img-popup-card{
+        margin-top: 30px;
+        width: 90%;
+        height: 90%;
+        background-size: 100% 100%;
+        border: 2px solid black;
+    }
+    
+}
