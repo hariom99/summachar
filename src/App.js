@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={allNews} />
-        <Route exact path="/coronavirus" component={Popup} />
+        <Route exact path="/coronavirus" component={allNews} />
         <Route exact path="/india" component={allNews} />
         <Route exact path="/world" component={allNews} />
         <Route exact path="/business" component={allNews} />
