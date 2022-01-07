@@ -90,7 +90,7 @@ a{
     width: 65%;
 }
 
-@media screen and (min-width:360px) and (max-width:500px) {
+@media screen and (min-width:200px) and (max-width:500px) {
     .navbar-container{
         margin-top: 2px;
         color: white;
@@ -122,7 +122,8 @@ a{
     
     }
     .brand-img{
-        width: 75%;
+        width: 65%;
+        margin-left: -20px;
     }
     .search-box-head{
         display: none;
